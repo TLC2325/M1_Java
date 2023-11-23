@@ -1,13 +1,13 @@
-package lab05;
+package lab06;
 
 public class Program {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-//		Lab5 lab5 = new Lab5(); 
-//		lab5.grades();
-//		lab5.part2();
+		Lab6 lab6 = new Lab6(); 
+		lab6.part1();
+
 	}
 
 }

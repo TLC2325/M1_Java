@@ -64,4 +64,3 @@ public class Lab5 {
 	}
 }
 
-//early evening and record this fact in another Boolean variable
