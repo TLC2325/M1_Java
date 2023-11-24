@@ -13,25 +13,18 @@ public class Lab5 {
 	}
 	
 	public void grades() {
+		int grade = getInt("Enter grade: ");
 		
-		while (true) {
-			int grade = getInt("Enter grade: ");
-			
-			if (grade >= 71 && grade <= 100) {
-				System.out.println("Distinction");
-				break;
-			} else if (grade >= 61 && grade <= 70) {
-				System.out.println("Merit");
-				break;
-			} else if (grade >= 50 && grade <= 60) {
-				System.out.println("Pass");
-				break;
-			} else if (grade < 50 && grade > 0) {
-				System.out.println("Fail");
-				break;
-			} else {
-				System.out.println("Error: marks must be between 1..100");
-			}
+		if (grade >= 71 && grade <= 100) {
+			System.out.println("Distinction");
+		} else if (grade >= 61 && grade <= 70) {
+			System.out.println("Merit");
+		} else if (grade >= 50 && grade <= 60) {
+			System.out.println("Pass");
+		} else if (grade < 50 && grade > 0) {
+			System.out.println("Fail");
+		} else {
+			System.out.println("Error: marks must be between 1..100");
 		}
 	}
 	
